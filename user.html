@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>VI CLUB99 - User</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body class="dark">
+  <header>
+    <img src="/static/logo.svg" alt="logo" class="logo">
+    <h1>VI CLUB99 — User</h1>
+  </header>
+  <main>
+    <section id="offers"><h2>Offers</h2><div id="offersList">Loading...</div></section>
+    <section id="banners"><h2>Banners</h2><div id="bannerList">Loading...</div></section>
+    <section id="payment">
+      <h2>Deposit</h2>
+      <div id="methods">Loading payment methods...</div>
+      <div class="form">
+        <input id="uname" placeholder="Your name"><input id="mobile" placeholder="Mobile">
+        <input id="amount" placeholder="Amount">
+        <button id="submitDeposit">Submit Deposit Request</button>
+      </div>
+      <div id="depositMsg"></div>
+    </section>
+    <section id="createId">
+      <h2>Create ID Request</h2>
+      <input id="site" placeholder="Site (eg: example.com)">
+      <button id="createIdBtn">Create ID Request</button>
+      <div id="idMsg"></div>
+    </section>
+  </main>
+<script src="/static/user.js"></script>
+</body>
+</html>
